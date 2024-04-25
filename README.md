@@ -1,7 +1,7 @@
 Overview
 Compression is just about everywhere, it is the process of representing data with fewer bits. Imagine that you run out of storage space in your computer and you can’t get a new one. You could delete some photos but you don’t want to. Instead you could free up some space by compressing each photo, reducing the file size. There are many ways to compress data, the algorithm used depends on the type of data you need to compress.
 
-This project implement a form of data compression. That is, given some data, we want to express the same information using less space. For this project, we compress text files, so here is an overview of how computers represent text internally.
+This project implements a form of data compression. That is, given some data, we want to express the same information using less space. For this project, we compress text files, so here is an overview of how computers represent text internally.
 
 Computers store data as a sequence of bytes. A byte consists of eight bits, and it represents a value between 0 and 255 inclusive. To represent English text, we need a way of assigning each English letter, punctuation symbol, special character, etc. to a sequence of eight bits (a value from 0 to 255). This mapping is provided by the ASCII encoding, which is shown in the table below. Notice that ASCII only uses 128 out of the 256 possible values that a byte can store.
 
