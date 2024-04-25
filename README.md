@@ -40,7 +40,7 @@ Step 4.2 – the first dequeued node and second dequeued node should be left and
 Implementation
 Overview of Files
 CharFreq class, which houses a Character object “character” representing a certain ASCII character, and a double “probOcc” representing its probability of occurrence (value between 0 and 1 showing its frequency). These objects are implemented to compare primarily by probOcc, then by character if those are equal. Note that “character” can be null. Getters and setters are provided. 
-Queue class, which functions as a simple generic queue. It implements isEmpty(), size(), enqueue(), dequeue(), and peek(). Do not edit this class.
+Queue class, which functions as a simple generic queue. It implements isEmpty(), size(), enqueue(), dequeue(), and peek(). 
 TreeNode class, which houses a CharFreq object “data” representing a certain character and its frequency, and TreeNodes “left” and “right” representing the left and right subtrees of the binary tree. Getters and setters are provided.
 Driver class is where any of the methods can be tested interactively. 
 StdIn and StdOut, which are used by the driver, provided methods, and some of your implemented methods as well. 
